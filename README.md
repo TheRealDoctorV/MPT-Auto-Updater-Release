@@ -8,7 +8,7 @@ The MPT Updater and Installer project consists of two main components:
 
 ## Components
 
-- **updater.py**: This Python script checks for updates, downloads new versions, and runs the installer. It is converted into an executable named `MPT.exe`.
+- **MPT.exe**: This Python script checks for updates, downloads new versions, and runs the installer.
 - **Installer.exe**: This executable is created from the installer script and is responsible for extracting the contents of downloaded `.rar` files.
 - **unrar.exe**: A required executable for extracting `.rar` files. - Is merged into Installer.exe
 
